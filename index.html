@@ -7,16 +7,16 @@
     <title>Silva Spark Event Brochures</title>
     <style>
         body {
-            background-color: #b8e0c5; /* Light Green Background Color */
-            color: #000000; /* Black Text Color */
+            background-color: #b8e0c5;
+            color: #000000;
             font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
         }
 
         header {
-            background-color: #00343f; /* Dark Green Header Background Color */
-            color: #ffffff; /* White Text Color */
+            background-color: #00343f;
+            color: #ffffff;
             padding: 10px 0;
             text-align: center;
             position: relative;
@@ -28,8 +28,8 @@
             left: 0;
             right: 0;
             top: 0;
-            height: 20px; /* Adjust the height of the ribbon as needed */
-            background-color: #086747; /* Darker Green Ribbon Color */
+            height: 20px;
+            background-color: #086747;
             z-index: -1;
         }
 
@@ -60,10 +60,21 @@
 
         .team-member {
             margin-bottom: 30px;
-            background-color: #ffffff; /* White Background Color for Team Members */
+            background-color: #ffffff;
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); /* Box Shadow for Team Members */
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+        }
+
+        .download-button {
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+            background-color: #00343f;
+            color: #ffffff;
+            padding: 8px 16px;
+            border-radius: 5px;
+            text-decoration: none;
         }
     </style>
 </head>
@@ -74,7 +85,7 @@
         <h1>Silva Spark Event Brochures</h1>
         <nav>
             <ul>
-                <li><a href="https://kevin22253.github.io/SilvaSpark/" target="_blank">home</a></li>
+                <li><a href="https://kevin22253.github.io/SilvaSpark/" target="_blank">Home</a></li>
                 <li><a href="#">Brochures</a></li>
             </ul>
         </nav>
@@ -85,12 +96,14 @@
         <div class="team-member">
             <img src="brochure1.jpg" alt="Silva Spark Event Brochure 1">
             <p>Description of Brochure 1 for Silva Spark Event.</p>
+            <a href="brochure1.jpg" download class="download-button">Download Brochure 1</a>
         </div>
 
         <!-- Brochure 2 -->
         <div class="team-member">
             <img src="brochure2.jpg" alt="Silva Spark Event Brochure 2">
             <p>Description of Brochure 2 for Silva Spark Event.</p>
+            <a href="brochure2.jpg" download class="download-button">Download Brochure 2</a>
         </div>
 
         <!-- Add more brochures as needed -->
